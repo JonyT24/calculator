@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock, paper, scissors</title>
+        <script src="./script.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+    </head> 
+
+    <body>
+        <div class="calculator-body">
+            <div class="screen"></div>
+            <div class="row-1">
+                <button id="clear" onclick="clearScreen()">CLEAR</button>
+                <button id="delete">DELETE</button>
+            </div>
+            <div class="row-2">
+                <button id="seven" value="7" onclick="displayButton(this)">7</button>
+                <button id="eight" value="8" onclick="displayButton(this)">8</button>
+                <button id="nine" value="9" onclick="displayButton(this)">9</button>
+                <button id="divide" value="÷" onclick="displayButton(this)">÷</button>
+            </div>
+            <div class="row-3">
+                <button id="four" value="4" onclick="displayButton(this)">4</button>
+                <button id="five" value="5" onclick="displayButton(this)">5</button>
+                <button id="six" value="6" onclick="displayButton(this)">6</button>
+                <button id="multiply" value="X" onclick="displayButton(this)">X</button>
+            </div>
+            <div class="row-4">
+                <button id="one" value="1" onclick="displayButton(this)">1</button>
+                <button id="two" value="2" onclick="displayButton(this)">2</button>
+                <button id="three" value="3" onclick="displayButton(this)">3</button>
+                <button id="minus" value="-" onclick="displayButton(this)">-</button>
+            </div>
+            <div class="row-5">
+                <button id="point" value="." onclick="displayButton(this)">.</button>
+                <button id="zero" value="0" onclick="displayButton(this)">0</button>
+                <button id="equals" value="=" onclick="displayButton(this)">=</button>
+                <button id="plus" value="+" onclick="displayButton(this)">+</button>
+            </div>
+        </div>
+    </body>
