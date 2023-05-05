@@ -1,16 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.716);
+    font-family: 'Poppins', sans-serif;
+}
 .calculator-body {
-    width: 300px;
-    height: 450px;
-    border: 1px solid black;
+    width: 400px;   
+    height: 600px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 0;
+    background-color: rgb(154, 255, 154);
 }
 
+.all-buttons {
+    width: 353px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+    
+} 
+
 button {
-    width: 60px;
-    height: 45px;
+    width: 78px;
+    height: 70px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .screen {
-    border: 1px solid black;
-    width: 150px;
-    height: 50px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 8px;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 25px 10px 10px 10px;
+    font-family: 'Poppins', sans-serif;
+    
+
 }
+
+.temp-value,
+.result-value {
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin top: 5px;
+}
+
+.temp-value {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#clear, 
+#delete {
+    width: 167px;
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5{
+    display: flex;
+    justify-content: space-between;
+}
+
+button:hover {
+    background-color: rgb(229, 229, 229);
+    s
+}
+
+#delete:hover {background-color: rgb(255, 153, 153);}   
+#clear:hover {background-color: rgb(255, 153, 153);}
+
+#divide:hover {background-color: rgb(196, 255, 255);}
+#plus:hover {background-color: rgb(196, 255, 255);}
+#minus:hover {background-color: rgb(196, 255, 255);}
+#multiply:hover {background-color: rgb(196, 255, 255);}
+
+#equals:hover {background-color: rgb(255, 255, 63);}
